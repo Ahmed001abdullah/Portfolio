@@ -309,6 +309,7 @@ span {
 
 .about-img img {
     width: 40vw;
+    border-radius: 50%;
 }
 
 .heading {
@@ -580,6 +581,14 @@ span {
 .contact form .btn {
     margin-top: 2rem;
     cursor: pointer;
+}
+#success-message {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 8px;
+    display: none;
 }
 
 .footer {

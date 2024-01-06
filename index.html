@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ahmed Abdullah Portfolio</title>
+    
+    <!--email link-->
+    <link rel="preload" href="https://formspree.io/static/img/loading.svg?t=1703949270" as="image" />
+
 
     <!-- swiper css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
@@ -42,10 +46,7 @@
             <h3>Hello, I am</h3>
             <h1>Ahmed Abdullah</h1>
             <p>
-                The magician who turns ideas into digital reality. As a Full Stack Developer, I speak the language of
-                    multiple programming realms, translating visions into sleek e-commerce wonders and captivating
-                    visiting websites. I thrive on challenges, diving deep into problems, and emerging with elegant
-                    solutions. Ready to bring your concepts to life? Let's make the magic happen!</p>
+                Your guide through the boundless possibilities of technology. Imagine a world where ideas don't just come to life, but they thrive. That's the world I'm building, one line of code at a time. Buckle up, because your journey into innovation starts here!"</p>
 
             <div class="social-media">
                 <a href="https://www.facebook.com/profile.php?id=100010201902060&mibextid=LQQJ4d"><i class='bx bxl-facebook'></i></a>
@@ -98,10 +99,13 @@
         <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
             <p>
-                Hello, I am Ahmed Abdullah The magician who turns ideas into digital reality. As a Full Stack Developer, I speak the language of
-                    multiple programming realms, translating visions into sleek e-commerce wonders and captivating
-                    visiting websites. I thrive on challenges, diving deep into problems, and emerging with elegant
-                    solutions. Ready to bring your concepts to life? Let's make the magic</p>
+                Hey there! I'm Ahmed Abdullah, a passionate tech explorer armed with a degree in Information Technology from Middlesex University, where I proudly earned a First Class Honours Degree. 🎓 My journey has been a fusion of creativity and precision, with a focus on data analysis, web development, and consulting. 💻✨</p>
+
+<p>Through numerous projects, I've cultivated a knack for turning complex challenges into elegant solutions. Whether it's decoding data intricacies or crafting user-friendly web experiences, I thrive on pushing the boundaries of what technology can achieve. 🌐</p>
+
+<p>Beyond the academic realm, I've honed my skills in real-world scenarios, contributing as a Junior Software Engineer in dynamic environments. 🛠️ My approach? A blend of innovation, dedication, and a touch of coding magic.</p>
+
+<p>So, if you're ready to embark on a digital adventure or collaborate on the next big thing, let's connect! 🚀✨"</p>
             <!-- <a href="#" class="btn">Read More</a> -->
         </div>
     </section>
@@ -258,24 +262,24 @@
         </div>
     </div> -->
 
-    <!-- contact section design -->
+    
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
-
-        <form action="#">
+    
+        <form action="https://formspree.io/f/xleqevdz" method="POST">
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
             </div>
             <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
+                <input type="tel" name="phone" placeholder="Mobile Number">
+                <input type="text" name="subject" placeholder="Email Subject">
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" class="btn">
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
         </form>
     </section>
-
+    
     <!-- footer design -->
     <footer class="footer">
         <div class="footer-text">
